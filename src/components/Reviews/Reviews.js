@@ -8,8 +8,8 @@ const Reviews = () => {
     
     return (
         <div className='container'>
-            <h2>Review</h2>
-            <div className='row m-0'>
+            <h2>Reviews</h2>
+            <div className='row m-0 g-4'>
                 {
                     reviews.map(review => <ReviewCard key={review.id} single_review={review}></ReviewCard>)
                 }

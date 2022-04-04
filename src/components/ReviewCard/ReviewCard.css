@@ -1,5 +1,9 @@
+.review-card{
+    border-radius: 20px;
+}
 .review-card-image{
     height: 70px;
     width: 70px;
     border-radius: 50%;
+    border: 2px solid orange;
 }
