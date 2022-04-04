@@ -1,5 +1,7 @@
 import React from 'react';
 import './ReviewCard.css'
+
+import Rating from '../Rating/Rating';
 const ReviewCard = ({ single_review }) => {
     const { name, rating, review, user_image } = single_review;
     return (
@@ -12,6 +14,7 @@ const ReviewCard = ({ single_review }) => {
                     <div className='ms-2'>
                         <h6 className='m-0'>{name}</h6>
                         <div>
+                            <Rating rating={rating}></Rating>
                             <p className='m-0'>Rating : {rating}</p>
                         </div>
                     </div>
