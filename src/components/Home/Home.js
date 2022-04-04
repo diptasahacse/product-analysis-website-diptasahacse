@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import HeroTextArea from '../HeroTextArea/HeroTextArea';
 import HerImage from '../../images/mbp.png'
 import './Home.css'
+import CustomerReview from '../CustomerReview/CustomerReview';
 
 const Home = () => {
     return (
@@ -16,6 +17,9 @@ const Home = () => {
                         <img className='hero-image' src={HerImage} alt="" />
                     </div>
                 </div>
+            </div>
+            <div>
+                <CustomerReview></CustomerReview>
             </div>
         </Container>
     );

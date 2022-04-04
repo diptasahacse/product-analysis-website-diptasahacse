@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Adithya",
+        "user_image": "https://i.ibb.co/WPx57hv/user1.jpg",
+        "rating": 2,
+        "review": "I'm a fan of apple products and I like almost everything about this new MBA. But it has one huge flaw that nobody talks about. It's the camera hardware and it hasn't been updated in ages. My zoom calls are so grainy and bad even with decent light. A $1000 laptop with 10 year old front camera is unacceptable. Camera is very important to me. Especially now that we all are quarantined at home and making zoom calls all the time."
+    },
+    {
+        "id": 2,
+        "name": "K. MURPHY",
+        "user_image": "https://i.ibb.co/yNVBKWX/user2.jpg",
+        "rating": 5,
+        "review": "UPDATE 12-15-2020 - After three weeks, I'm still really impressed with the M1 MacBook Air/8 Core CPU/8 Core GPU/512 SSD/8GB RAM. --- My updated plea: MAKE SURE YOU GET AS MUCH MEMORY & STORAGE AS YOU CAN AFFORD. SPECIAL ORDER ONE TO YOUR PROJECTED FUTURE NEED!"
+    },
+    {
+        "id": 3,
+        "name": "Impetigo",
+        "user_image": "https://i.ibb.co/HB9V6vW/user3.jpg",
+        "rating": 5,
+        "review": "LOOKS GREAT. Love the newer (I know that the actual exterior design is a few years old by now) design, looks and feels great. Form factor is nice and it is a reasonable weight."
+    },
+    {
+        "id": 4,
+        "name": "M. Barbetta",
+        "user_image": "https://i.ibb.co/VSJJ5sB/user4.jpg",
+        "rating": 4.9,
+        "review": "No complains so far. Very fast and performs great. I had a 2014 MacBook Air and finally upgraded this year. This is leagues beyond that entry and I’m very happy with this upgrade."
+    },
+    {
+        "id": 5,
+        "name": "Marnelli V.",
+        "user_image": "https://i.ibb.co/zVGHnXH/user5.jpg",
+        "rating": 4.8,
+        "review": "Bought this laptop bc i needed it for spring semester and i needed an upgrade from my heavy macbook pro. I go to work too so i needed something super light and thin i can just bring everywhere and slide it in my bag."
+    },
+    {
+        "id": 6,
+        "name": "EINTESLA",
+        "user_image": "https://i.ibb.co/s174rG7/user6.jpg",
+        "rating": 2,
+        "review": "The unit is smaller than the original Air, also it has NO USB ports, the description on the page is misleading and they never show the right-hand side of the unit in the pictures, otherwise, I would have never bought it, Amazon return policy is horrible they take 2 weeks to refund your money, took it out looked at it said nope, didn't even registered it. Waste of time and money."
+    }
+]
