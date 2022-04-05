@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "What is Context API..?",
+        "des": "The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to 'prop drilling' or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux."
+        
+    },
+    {
+        "id": 2,
+        "title": "Difference between inline and block elements.",
+        "des": "Formatting. By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS)."
+        
+    },
+    {
+        "id": 3,
+        "title": "What is Semantic tag in HTML...?",
+        "des": "The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages. This article will focus on 'What is Semantics in HTML'."
+        
+    }
+]

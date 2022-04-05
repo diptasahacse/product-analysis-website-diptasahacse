@@ -14,7 +14,6 @@ const Rating = ({rating}) => {
         
         
     }
-    console.log(ratingStatus)
     return (
         <div>
             {
