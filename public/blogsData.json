@@ -2,19 +2,19 @@
     {
         "id": 1,
         "title": "What is Context API..?",
-        "des": "The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to 'prop drilling' or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux."
+        "des": "In React Application, Data is passed parent to child to sub child and so one via props or props drilling. Context API is the alternative to props drilling from Parent Component to child components. It is a way for a React App to provides global variable effectively that can passed around all children components without explicitly passing a prop through every level of the component tree. To use or create Context, I have to Import createContext and initialize it like this. const MyContext = createContext(). I'll have to have use Context Provider to wrap the tree of components. like this, <MyContext.Provider value={}> (here should keep all children components) </MyContext.Provider>. and pass data in value. Then, if I want to use that data from many level depth components then, i have to use useContext hook, first i have to import it in that component. to use or store that value, the syntax is like this, const myData = useContext(MyContext). Then i can easily use that value in that components."
         
     },
     {
         "id": 2,
-        "title": "Difference between inline and block elements.",
+        "title": "Difference between inline and block level elements.",
         "des": "Formatting. By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS)."
         
     },
     {
         "id": 3,
         "title": "What is Semantic tag in HTML...?",
-        "des": "The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages. This article will focus on 'What is Semantics in HTML'."
+        "des": "Semantic Tags or Elements means Tag with a meaning. Semantic Tags are some tags in HTML that describe it's meaning to both the browser and developer. Some non-semantic tags like, <div>, <span> which tell nothing about it's content. But, some Semantic tags like, <article>, <header>,<footer>,<main>,<section>,<nav> etc which clearly defines it's content. Example, <nav> tag use for navigation. <header> tag use for keeping heading information or heading content of the website. <main> tag use for keep all main information of the website except header and footer. <section> tag use for keep single section of the website like, about us, our features, etc. <footer> tag use for keep footer content of the website like, copyright text."
         
     }
 ]
