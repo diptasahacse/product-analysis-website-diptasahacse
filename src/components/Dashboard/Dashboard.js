@@ -6,7 +6,7 @@ import './Dashboard.css'
 const Dashboard = () => {
     return (
         <div className='container'>
-            
+            <h3>Dashboard</h3>
             <div className='my-5'>
                 <div className="row">
                     <div className="col-lg-6">

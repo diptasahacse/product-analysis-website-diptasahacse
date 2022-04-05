@@ -11,7 +11,7 @@ const Blogs = () => {
     return (
         <div className='container'>
             <h3>Blogs</h3>
-            <div className='m-0 row my-4'>
+            <div className='m-0 row my-4 g-3'>
                 {
                     blogs.map(blog => <BlogCard blog={blog} key={blog.id}></BlogCard>)
                 }

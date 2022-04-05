@@ -2,11 +2,12 @@ import React from 'react';
 import './ReviewCard.css'
 
 import Rating from '../Rating/Rating';
+import { Link } from 'react-router-dom';
 const ReviewCard = ({ single_review }) => {
-    const { name, rating, review, user_image } = single_review;
+    const { id, name, rating, review, user_image } = single_review;
     return (
         <div className='col-lg-4 col-md-6'>
-            <div className='review-card shadow p-3'>
+            <div className='review-card shadow p-3 h-100'>
                 <div className='d-flex align-items-center'>
                     <div>
                         <img className='review-card-image' src={user_image} alt="" />
@@ -20,7 +21,11 @@ const ReviewCard = ({ single_review }) => {
                     </div>
                 </div>
                 <div>
-                    <p>{review.length > 200 ? review.slice(0,200)+"..." : review}</p>
+                    <p>{review.length > 200 ? review.slice(0, 150) + "..." : review}
+                        <Link className='text-decoration-none' to={`/reviews/${id}`}>read more.</Link>
+                    </p>
+
+
                 </div>
             </div>
 
