@@ -16,7 +16,6 @@ const NavBar = () => {
                         <CustomLink className="nav-link" to="/reviews">Reviews</CustomLink>
                         <CustomLink className="nav-link" to="/dashboard">Dashboard</CustomLink>
                         <CustomLink className="nav-link" to="/blogs">Blogs</CustomLink>
-                        <CustomLink className="nav-link" to="/about">About</CustomLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
