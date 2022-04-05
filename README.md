@@ -1,6 +1,6 @@
 # Laptop Analysis Website
 
-Live Site Link [Your Next Laptop](https://your-laptop-review-website.netlify.app/).
+Live Site Link [Next Laptop](https://your-laptop-review-website.netlify.app/).
 
 ## All Features
 > In This project, I have used React Router, which is very helpful for when I visit current page to another pages without reloading my website. Also it helped me to set dynamic path / url. I have used React Bootstrap and custom CSS to design my website UI. I have also used Custom hooks for DRY (Don't Repeat Yourself) my code.  

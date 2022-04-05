@@ -13,7 +13,7 @@ const NotFound = () => {
                     </div>
                 </div>
                 <div className="col-lg-5">
-                    <div>
+                    <div className='text-center'>
                         <img className='not-found-img' src={animatedImg} alt="" />
                     </div>
                 </div>
