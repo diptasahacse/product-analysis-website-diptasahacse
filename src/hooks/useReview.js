@@ -1,11 +1,11 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 export const useReview = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(()=>{
-        fetch('review.json')
-        .then(res => res.json())
-        .then(data => setReviews(data))
+        axios.get('review.json')
+        .then(data => setReviews(data.data))
 
     },[])
 

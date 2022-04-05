@@ -1,11 +1,11 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 export const useCharts = () => {
     const [chartData, setChartData] = useState([]);
     useEffect(() => {
-        fetch('rechart-data.json')
-            .then(res => res.json())
-            .then(data => setChartData(data))
+        axios.get('rechart-data.json')
+        .then(data => setChartData(data.data))
 
     }, [])
 
