@@ -7,8 +7,8 @@
     },
     {
         "id": 2,
-        "title": "Difference between inline and block level elements.",
-        "des": "Formatting. By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS)."
+        "title": "Difference between inline, inline block and block.",
+        "des": "The basic difference between inline, inline block and block is, in display:inline is ignore the height width set. where an element with display:inline-block does not ignore height and width. web developer can set width and height. and other hand element with display:block takes full width of the container. That means, display:inline and display:inline-block allow to set element side by side. where the display:block take full width of it's parent container. some inline elements are <a>, <abbr>, <button>, <label>, <b>, <br>, <cite>, <code> etc all are inline elements. some block elements are <p>, <div>, <h1> to <h6>, <article>, <ul>, <li>, <section> etc all are block level elements."
         
     },
     {
