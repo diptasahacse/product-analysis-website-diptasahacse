@@ -9,7 +9,7 @@ const CustomerReview = () => {
     return (
         <div className='py-4'>
             <h2 className='fw-bold text-center'>Customer Reviews (3)</h2>
-            <div className='row m-0 my-5'>
+            <div className='row m-0 my-5 g-3'>
                 {
                     reviews.slice(0, 3).map(review => <ReviewCard key={review.id} single_review={review}></ReviewCard>)
                 }

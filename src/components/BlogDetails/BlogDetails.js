@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import './BlogDetails.css'
 const BlogDetails = () => {
     const {blogID} = useParams();
     const [blogs, setBlogs] = useState([])
@@ -12,7 +13,7 @@ const BlogDetails = () => {
     const title = blog?.title;
     const des = blog?.des;
     return (
-        <div className='container'>
+        <div className='container blog-details-section my-5 shadow p-3'>
             <h3>{title}</h3>
             <p>{des}</p>
             
